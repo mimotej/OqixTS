@@ -1,4 +1,9 @@
-<h3 align="center">OqixTS</h3>
+<p align="center">
+  <a href="https://github.com/OqixDevs/OqixTS">
+    <img src="https://raw.githubusercontent.com/OqixDevs/OqixTS/master/avatar/oqix-hq.png" width="200" alt="Oqix logo" />
+  </a>
+</p>
+<h2 align="center">Oqix</h2>
 <p align="center">Discord BOT intended for FIT@FI server.</p>
 <p align="center">
   <a href="https://github.com/OqixDevs/OqixTS/actions?query=workflow%3A%22Pull+request+workflow%22++">
@@ -16,7 +21,7 @@
 </p>
 
 ---
-OqixTS is a bot used in FIT@FI discord. This bot has following functionalinty:
+Oqix is a bot used in FIT@FI discord. This bot has following functionalinty:
 
 - Verify users
 - Print out information how many credits you will receive for course recognition
