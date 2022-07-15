@@ -27,7 +27,7 @@ OqixTS is a bot used in FIT@FI discord. This bot has following functionalinty:
 - Print out information how many credits you will receive for course recognition
 - Prune spam messages
 - Announce message
-- Restart
+- Restacrt
 - Whoami - prints user info
 - Whois - print info about user
 
