@@ -7,8 +7,10 @@ jobs:
   new-pr:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: "Comment to PR and add labels"
-      - uses: actions/github-script@v3
+        uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
@@ -19,9 +21,7 @@ jobs:
               issue_number: github.context.issue.number,
               body: comment
             })
-            github.issues.addLabels({
-              owner: github.context.repo.owner,
-              repo: github.context.repo.repo,
-              issue_number: github.context.issue.number,
-              labels: ["review-needed"]
-            })
+      - name: Add review-needed label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: review-needed
